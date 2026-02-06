@@ -12,6 +12,6 @@ variable "region" {
 
 variable "subnet_id" {
   type        = string
-  description = "The VPC Subnet ID to launch the EC2 instance in"
+  description = "This VPC Subnet ID to launch the EC2 instance in"
   default     = "subnet-04f014a664f51b81a"
 }
